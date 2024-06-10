@@ -24,4 +24,11 @@ class person {
   }
 }
 
+const person = new person();
+person.name = "유으뜸";
+person.age = "11";
+person.job = "수강생";
 
+console.log("Name", person.name);
+console.log("Age", person.age);
+console.log("Job",person.job);
