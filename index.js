@@ -10,4 +10,10 @@ class person {
   get name() {
     return this._name;
   }
+  set age(value) {
+    this._age = value;
+  }
+  get age() {
+    return this._age;
+  }
 }
