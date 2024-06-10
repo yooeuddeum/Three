@@ -16,4 +16,12 @@ class person {
   get age() {
     return this._age;
   }
+  set job(value) {
+    this._job = value;
+  }
+  get job() {
+    return this._job;
+  }
 }
+
+
