@@ -44,7 +44,7 @@ const setName = (person, callback) => {
 };
 
 const setAge = (person, callback) => {
-  person.age = "11";
+  person.age = 11;
   callback(person, setJob);
 };
 
